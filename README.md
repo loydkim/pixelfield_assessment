@@ -19,7 +19,7 @@
 
 ## Requirements  
 
-###- This connection should be available only when internet connection is available 
+### This connection should be available only when internet connection is available 
 
 1. Understanding Connectivity_plus
 
@@ -41,7 +41,7 @@ Step 1: Use connectivity_plus to check the current network status.
 
 Step 2: If a network is detected (WiFi or mobile), proceed to verify that the internet is reachable. This can be done by making a simple HTTP request or performing a DNS lookup to a known reliable endpoint (for example, querying "google.com").  
 
-###- Data should be stored in the app and “refresh” after fetching if exists 
+### Data should be stored in the app and “refresh” after fetching if exists 
 
 1. Hive as a Local Database
 
@@ -68,10 +68,9 @@ Once new data is successfully fetched:
 Update the Hive storage by replacing the stale data with the new data.
 Notify the UI to refresh so that the user sees the updated content.
 
+## Another information
 
-### Another information
-
-- Use any packages from pub.dev, but explain, why you used it 
+### Use any packages from pub.dev, but explain, why you used it 
 
 1. State Management Packages
 
@@ -107,7 +106,7 @@ build_runner 
 
 build_runner is a development tool that automates code generation tasks. In your case, it is primarily used to run the code generators (like hive_generator) that create boilerplate code, such as type adapters. This tool is essential for maintaining a clean and efficient codebase, significantly reducing manual errors and repetitive coding tasks.
 
-- Track your time on test task and send this info to us
+### Track your time on test task and send this info to us
 
 4.14(Mon) 
 
