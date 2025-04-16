@@ -4,7 +4,7 @@
  
 ### Figma Design: https://www.figma.com/design/gX69tW4YfXMvlGrYVu2l7Q/Pixelfield-Flutter?node-id=0-1&p=f&t=ieoQB825TZZN5Y1H-0
 
-### Project Development Environment 
+## Project Development Environment 
 
 [✓] Flutter (Channel stable, 3.29.3, on macOS 15.3.1 24D70 darwin-arm64, locale
     en-CA)
@@ -17,9 +17,9 @@
 
 [✓] VS Code (version 1.99.2)
 
-### Requirements  
+## Requirements  
 
-- This connection should be available only when internet connection is available 
+###- This connection should be available only when internet connection is available 
 
 1. Understanding Connectivity_plus
 
@@ -41,7 +41,7 @@ Step 1: Use connectivity_plus to check the current network status.
 
 Step 2: If a network is detected (WiFi or mobile), proceed to verify that the internet is reachable. This can be done by making a simple HTTP request or performing a DNS lookup to a known reliable endpoint (for example, querying "google.com").  
 
-- Data should be stored in the app and “refresh” after fetching if exists 
+###- Data should be stored in the app and “refresh” after fetching if exists 
 
 1. Hive as a Local Database
 
