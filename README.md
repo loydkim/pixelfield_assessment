@@ -6,7 +6,7 @@
 
 ## Demo
 
-| [Dating App Main](https://github.com/loydkim/Dating_App_Main)  | [Chat App](https://github.com/loydkim/chat_app_loyd) |
+| iOS  | Android |
 | :---------------: | :---------------: |
 | [![](https://github.com/loydkim/Dating_App_Main/blob/main/promo_ios.gif)](https://github.com/loydkim/Dating_App_Main) | [![](https://github.com/loydkim/chat_app_loyd/blob/master/Chat_App_iOS.gif)](https://github.com/loydkim/chat_app_loyd) |
 
