@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Springbank",
+        "imagePath": "assets/item.png",
+        "year": 1992,
+        "number": 1234,
+        "currentCount": 112,
+        "totalCount": 158,
+        "type": "Genesis"
+    },
+    {
+        "title": "Lagavulin",
+        "imagePath": "assets/item.png",
+        "year": 1987,
+        "number": 2345,
+        "currentCount": 98,
+        "totalCount": 150,
+        "type": "Vintage"
+    },
+    {
+        "title": "Ardbeg",
+        "imagePath": "assets/item.png",
+        "year": 1995,
+        "number": 3456,
+        "currentCount": 132,
+        "totalCount": 175,
+        "type": "Classic"
+    },
+    {
+        "title": "Laphroaig",
+        "imagePath": "assets/item.png",
+        "year": 1990,
+        "number": 4567,
+        "currentCount": 110,
+        "totalCount": 160,
+        "type": "Modern"
+    },
+    {
+        "title": "Talisker",
+        "imagePath": "assets/item.png",
+        "year": 1998,
+        "number": 5678,
+        "currentCount": 125,
+        "totalCount": 165,
+        "type": "Evolution"
+    },
+    {
+        "title": "Oban",
+        "imagePath": "assets/item.png",
+        "year": 1985,
+        "number": 6789,
+        "currentCount": 142,
+        "totalCount": 185,
+        "type": "Heritage"
+    },
+    {
+        "title": "Highland Park",
+        "imagePath": "assets/item.png",
+        "year": 1993,
+        "number": 7890,
+        "currentCount": 130,
+        "totalCount": 170,
+        "type": "Legendary"
+    },
+    {
+        "title": "Macallan",
+        "imagePath": "assets/item.png",
+        "year": 1980,
+        "number": 8901,
+        "currentCount": 90,
+        "totalCount": 140,
+        "type": "Iconic"
+    }
+]

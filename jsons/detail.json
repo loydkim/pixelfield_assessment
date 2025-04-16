@@ -1,0 +1,15 @@
+[
+    {
+        "distillery": "Ardbeg",
+        "region": "Islay",
+        "country": "Scotland",
+        "type": "Single Malt",
+        "ageStatement": "10 Years",
+        "filled": 2008,
+        "bottled": 2018,
+        "caskNumber": 46,
+        "abv": 46.0,
+        "size": "700ml",
+        "finish": "Bourbon"
+    }
+]

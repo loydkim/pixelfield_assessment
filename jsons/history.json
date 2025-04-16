@@ -1,0 +1,47 @@
+[
+    {
+      "label": "Important Notice",
+      "title": "Server Maintenance",
+      "descriptions": [
+        "Scheduled on July 5th from 2:00 AM to 5:00 AM",
+        "All services will be temporarily unavailable"
+      ],
+      "attachments": [
+        {
+          "attachmentName": "Maintenance Checklist",
+          "attachmentUrl": "https://example.com/files/maintenance-checklist.pdf"
+        },
+        {
+          "attachmentName": "Error Logs",
+          "attachmentUrl": "https://example.com/files/error-logs.txt"
+        },
+        {
+          "attachmentName": "Screenshot",
+          "attachmentUrl": "https://example.com/images/screenshot.png"
+        }
+      ]
+    },
+    {
+      "label": "FYI",
+      "title": "App Release Update",
+      "descriptions": [
+        "Version 2.0 is now live on both iOS and Android",
+        "New UI improvements and performance enhancements"
+      ],
+      "attachments": [
+        {
+          "attachmentName": "Release Notes",
+          "attachmentUrl": "https://example.com/docs/release-notes.pdf"
+        },
+        {
+          "attachmentName": "Screenshots",
+          "attachmentUrl": "https://example.com/images/screenshots.zip"
+        },
+        {
+          "attachmentName": "Marketing Assets",
+          "attachmentUrl": "https://example.com/images/marketing-assets.zip"
+        }
+      ]
+    }
+  ]
+  
