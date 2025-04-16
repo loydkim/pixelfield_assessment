@@ -4,6 +4,10 @@
  
 ### Figma Design: https://www.figma.com/design/gX69tW4YfXMvlGrYVu2l7Q/Pixelfield-Flutter?node-id=0-1&p=f&t=ieoQB825TZZN5Y1H-0
 
+If you have any issue to build this project, please download this.
+
+https://drive.google.com/file/d/1iBO6rayUZ9JsTq4b1mkedCG3kdpQcEXy/view?usp=drive_link
+
 ## Demo
 
 | iOS  | Android |
