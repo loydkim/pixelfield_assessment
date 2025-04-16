@@ -19,7 +19,7 @@
 
 ### Requirements  
 
-###- This connection should be available only when internet connection is available 
+- This connection should be available only when internet connection is available 
 
 1. Understanding Connectivity_plus
 
@@ -75,20 +75,37 @@ Notify the UI to refresh so that the user sees the updated content.
 
 1. State Management Packages
 
-flutter_bloc This package implements the BLoC (Business Logic Component) pattern. It is used for separating business logic from the presentation layer, which greatly enhances code modularity, testability, and maintainability. By encapsulating state changes and events, it allows your app to scale more robustly over time, ensuring that UI components remain focused solely on rendering.
-equatable In Dart, comparing objects (especially when dealing with immutable state) often requires overriding equality operators. The equatable package streamlines this process by providing a simple API to make objects easily comparable, which is particularly useful in conjunction with flutter_bloc where state and event comparisons are frequent. This reduces boilerplate code and potential errors in equality checks.
+flutter_bloc 
+
+This package implements the BLoC (Business Logic Component) pattern. It is used for separating business logic from the presentation layer, which greatly enhances code modularity, testability, and maintainability. By encapsulating state changes and events, it allows your app to scale more robustly over time, ensuring that UI components remain focused solely on rendering.
+
+equatable
+
+In Dart, comparing objects (especially when dealing with immutable state) often requires overriding equality operators. The equatable package streamlines this process by providing a simple API to make objects easily comparable, which is particularly useful in conjunction with flutter_bloc where state and event comparisons are frequent. This reduces boilerplate code and potential errors in equality checks.
 
 2. Database Packages
 
-hive Hive is a lightweight, NoSQL key-value database written in pure Dart. It is known for its speed and simplicity. The choice of Hive is due to its ability to handle local storage needs efficiently, providing robust support for offline operations. Its performance, simplicity, and flexibility make it an excellent choice for apps that require a fast and easy-to-use database.
-hive_flutter This package provides the necessary integrations to use Hive in Flutter applications. It simplifies tasks such as initialization and ensures that Hive can seamlessly work within the Flutter ecosystem, offering widgets and utilities that are designed specifically to enhance the Flutter experience with Hive.
-hive_generator When working with custom data models in Hive, you need type adapters to serialize and deserialize objects. hive_generator works alongside build_runner to automatically generate these adapters, thus reducing manual coding and helping avoid common errors related to data serialization. It boosts productivity by automating what would otherwise be a tedious and error-prone task.
+hive
+
+ Hive is a lightweight, NoSQL key-value database written in pure Dart. It is known for its speed and simplicity. The choice of Hive is due to its ability to handle local storage needs efficiently, providing robust support for offline operations. Its performance, simplicity, and flexibility make it an excellent choice for apps that require a fast and easy-to-use database.
+ 
+hive_flutter
+
+This package provides the necessary integrations to use Hive in Flutter applications. It simplifies tasks such as initialization and ensures that Hive can seamlessly work within the Flutter ecosystem, offering widgets and utilities that are designed specifically to enhance the Flutter experience with Hive.
+
+hive_generator 
+
+When working with custom data models in Hive, you need type adapters to serialize and deserialize objects. hive_generator works alongside build_runner to automatically generate these adapters, thus reducing manual coding and helping avoid common errors related to data serialization. It boosts productivity by automating what would otherwise be a tedious and error-prone task.
 
 3. Utility Packages
 
-connectivity_plus This package is used to monitor network connectivity status within the app. By handling connectivity changes, it allows the app to adapt its behavior based on the current network conditions—whether it should load remote content or rely on cached data, for instance. This makes the user experience more resilient, especially in scenarios where network connectivity is unstable or unavailable.
+connectivity_plus
 
-build_runner build_runner is a development tool that automates code generation tasks. In your case, it is primarily used to run the code generators (like hive_generator) that create boilerplate code, such as type adapters. This tool is essential for maintaining a clean and efficient codebase, significantly reducing manual errors and repetitive coding tasks.
+This package is used to monitor network connectivity status within the app. By handling connectivity changes, it allows the app to adapt its behavior based on the current network conditions—whether it should load remote content or rely on cached data, for instance. This makes the user experience more resilient, especially in scenarios where network connectivity is unstable or unavailable.
+
+build_runner 
+
+build_runner is a development tool that automates code generation tasks. In your case, it is primarily used to run the code generators (like hive_generator) that create boilerplate code, such as type adapters. This tool is essential for maintaining a clean and efficient codebase, significantly reducing manual errors and repetitive coding tasks.
 
 - Track your time on test task and send this info to us
 
