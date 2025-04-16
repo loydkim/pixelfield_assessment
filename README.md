@@ -8,7 +8,7 @@
 
 | iOS  | Android |
 | :---------------: | :---------------: |
-| [![](https://github.com/loydkim/Dating_App_Main/blob/main/promo_ios.gif)](https://github.com/loydkim/Dating_App_Main) | [![](https://github.com/loydkim/chat_app_loyd/blob/master/Chat_App_iOS.gif)](https://github.com/loydkim/chat_app_loyd) |
+| [![](https://github.com/loydkim/pixelfield_assessment/blob/main/demo/demo_iOS.gif)]() | [![](https://github.com/loydkim/chat_app_loyd/blob/master/Chat_App_iOS.gif)](https://github.com/loydkim/chat_app_loyd) |
 
 ## Project Development Environment 
 
