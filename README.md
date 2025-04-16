@@ -4,6 +4,12 @@
  
 ### Figma Design: https://www.figma.com/design/gX69tW4YfXMvlGrYVu2l7Q/Pixelfield-Flutter?node-id=0-1&p=f&t=ieoQB825TZZN5Y1H-0
 
+## Demo
+
+| [Dating App Main](https://github.com/loydkim/Dating_App_Main)  | [Chat App](https://github.com/loydkim/chat_app_loyd) |
+| :---------------: | :---------------: |
+| [![](https://github.com/loydkim/Dating_App_Main/blob/main/promo_ios.gif)](https://github.com/loydkim/Dating_App_Main) | [![](https://github.com/loydkim/chat_app_loyd/blob/master/Chat_App_iOS.gif)](https://github.com/loydkim/chat_app_loyd) |
+
 ## Project Development Environment 
 
 [✓] Flutter (Channel stable, 3.29.3, on macOS 15.3.1 24D70 darwin-arm64, locale
