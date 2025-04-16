@@ -1,16 +1,5 @@
-# pixelfield_project
+# Pixelfield Project by YOUNGSIC (LOYD) KIM
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ The project is a meticulously engineered Flutter application that adopts a feature-first structure to enhance modularity and maintainability. It utilizes the Bloc pattern for robust state management, ensuring a predictable and scalable state flow throughout the application. For efficient local data storage and retrieval, the project leverages Hive, a lightweight yet powerful database solution. The application’s visual design has been thoughtfully crafted in Figma, and the complete design resource can be viewed at the provided link. Together, these technologies form a cohesive framework that underpins the project's commitment to delivering a high-quality user experience. 
+ 
+Figma Design: https://www.figma.com/design/gX69tW4YfXMvlGrYVu2l7Q/Pixelfield-Flutter?node-id=0-1&p=f&t=ieoQB825TZZN5Y1H-0
