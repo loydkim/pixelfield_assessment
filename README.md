@@ -17,6 +17,58 @@
 
 [✓] VS Code (version 1.99.2)
 
+### Requirements  
+
+###- This connection should be available only when internet connection is available 
+
+1. Understanding Connectivity_plus
+
+Connectivity Status:
+
+The connectivity_plus plugin in Flutter is used to determine the type of network connection that the device is currently using, such as WiFi, mobile, or none. It provides a quick way to check if there is a network interface available.
+
+Limitation on Actual Internet Access:
+
+One important nuance is that connectivity_plus can tell you if the device is connected to a network (e.g., WiFi), but it does not guarantee that there is actual internet access. For example, a device may be connected to a WiFi network that has no internet connectivity (perhaps due to a captive portal, network misconfiguration, or other issues).
+
+2. Meeting the Requirement 
+
+Check for a Valid Internet Connection:
+
+When the requirement states that a connection (or a feature that relies on a network) should only be available when an internet connection is present, you have to perform an extra verification step. This typically involves:
+
+Step 1: Use connectivity_plus to check the current network status.
+
+Step 2: If a network is detected (WiFi or mobile), proceed to verify that the internet is reachable. This can be done by making a simple HTTP request or performing a DNS lookup to a known reliable endpoint (for example, querying "google.com").  
+
+- Data should be stored in the app and “refresh” after fetching if exists 
+
+1. Hive as a Local Database
+
+Lightweight and Fast:
+Hive is a fast and lightweight key-value store designed for Flutter applications. It enables you to store data in a structured format and is perfect for caching purposes.
+
+Ease of Use:
+Hive’s API is straightforward, making it simple to read and write data. This is ideal for implementing a cache-refresh system where data is read on app start and then updated when new data is fetched.
+
+2. Implementation Strategy 
+
+Step 1: Display Cached Data
+
+When the app starts or when a specific view is loaded, check the Hive box to see if local data exists. If it does, populate the UI immediately with this cached data.
+
+Step 2: Fetch Remote Data
+
+Concurrently or subsequently, initiate a background network request to fetch the latest data from your remote source. This can be done regardless of whether local data exists, ensuring that you always work towards the most up-to-date content.
+
+Step 3: Update Cache & UI
+
+Once new data is successfully fetched:
+
+Update the Hive storage by replacing the stale data with the new data.
+Notify the UI to refresh so that the user sees the updated content.
+
+
 ### Another information
 
 - Use any packages from pub.dev, but explain, why you used it 
