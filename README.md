@@ -43,14 +43,19 @@ build_runner build_runner is a development tool that automates code generation
 4.14(Mon) 
 
 3:25pm : Retrieve the assessment message from Pixelfield Ltd.
+
 5:00pm ~ 6:00pm : Review the assessment description and deliberate on the project structure.
+
 6:00pm ~ 8:00pm : Initiate the project by saving application source files and generating mock data.
+
 8:00pm : 10:00pm : Develop pages, create widgets, and establish the overall structure.
 
 4.15(Tue)  
 
 9:00am ~ 11:am: Finalize all pages and complete the mock data creation.
+
 2:00pm ~ 4:00pm: Perform code refactoring using the Bloc pattern.
+
 4:00pm ~ 6:00pm : Conduct code testing and optimization.
 
 4.16(Wed)  
